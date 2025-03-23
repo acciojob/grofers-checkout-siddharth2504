@@ -18,6 +18,7 @@ function getSum(){
 
 	cell1.innerText = "Total";
 	cell2.innerText = totalSum;
+	cell2.setAttribute("id","ans")
 
 	row.append(cell1, cell2);
 	table.append(row);
